@@ -1,13 +1,13 @@
 {
   "name": "auth0-verify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Verifies Auth0 tokens",
   "keywords": [
-	  "auth0",
-	  "verify",
-	  "promise",
-	  "token",
-	  "jwt"
+    "auth0",
+    "verify",
+    "promise",
+    "token",
+    "jwt"
   ],
   "main": "index.js",
   "author": "Kennedy Rose <krose@escaladesports.com>",
