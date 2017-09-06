@@ -17,13 +17,13 @@ yarn add auth0-verify
 ## Usage
 
 ```javascript
-var verify = require('auth0-verify)
+var verify = require('auth0-verify')
 
-verify('some.access.token', 'auth0Username.auth0.com', 'auth0AppID)
+verify('some.access.token', 'auth0Username.auth0.com', 'auth0AppID')
 	.then(function(){
 		console.log('Token is valid!')
 	})
 	.catch(function(err){
-		console.log('Token is not valid!)
+		console.log('Token is not valid!')
 	})
 ```
