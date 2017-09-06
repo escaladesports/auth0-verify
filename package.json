@@ -1,6 +1,6 @@
 {
   "name": "auth0-verify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verifies Auth0 tokens",
   "keywords": [
     "auth0",
