@@ -1,6 +1,6 @@
 {
   "name": "auth0-verify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Verifies Auth0 tokens",
   "repository": "https://github.com/escaladesports/auth0-verify",
   "keywords": [
