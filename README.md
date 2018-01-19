@@ -20,8 +20,9 @@ yarn add auth0-verify
 var verify = require('auth0-verify')
 
 verify('some.access.token', 'auth0Username.auth0.com', 'auth0AppID')
-	.then(function(){
+	.then(function(res){
 		console.log('Token is valid!')
+		console.log('Token:', res)
 	})
 	.catch(function(err){
 		console.log('Token is not valid!')

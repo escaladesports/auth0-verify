@@ -14,14 +14,14 @@ module.exports = (token, uri, clientId) => {
 			audience: clientId,
 			algorithms: ['RS256']
 		})
-		app({
-			// req
+		const req = {
 			headers: {
 				authorization: `Bearer ${token}`
 			}
-		}, {}, err => {
+		}
+		app(req, {}, err => {
 			if(err) return reject(err)
-			resolve()
+			resolve(req.user)
 		})
 	})
 }
